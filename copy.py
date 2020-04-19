@@ -1,7 +1,7 @@
 import shutil,glob,os,datetime
 from pathlib import Path
 
-print("place which folder you want to make a backup")
+print("place which folder you want to backup")
 src_dir = input()
 print("to wich folder do you want to place the backup")
 dst_dir = input()
