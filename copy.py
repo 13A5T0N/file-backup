@@ -23,7 +23,7 @@ os.chdir(src_dir)
 total = 0 
 
 for file in os.listdir(src_dir):
-    # type file you want a copy of 
+    # type of file you want a copy of 
     if file.endswith(".xlsx"):
         file = os.path.join(src_dir, file)
         shutil.copy(file,new_folder)
